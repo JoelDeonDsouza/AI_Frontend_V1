@@ -1,0 +1,31 @@
+nav.nav-wrapper {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 56px;
+  max-height: 50px;
+  font-size: 17px;
+  position: fixed;
+}
+
+nav .nav-content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1024px;
+  padding: 0;
+}
+
+nav .list-styled {
+  cursor: default;
+  margin: 0;
+  width: auto;
+  height: 56px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+}

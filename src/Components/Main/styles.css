@@ -1,0 +1,100 @@
+.mainConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displayBoxContainer {
+  display: flex;
+  padding-top: 20%;
+  justify-content: center;
+}
+.bottomContainerMain {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bottomContainer {
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer {
+  width: 800px;
+  height: 28px;
+  padding: 8px;
+  border-radius: 100px;
+  outline: none;
+  font-size: 18px;
+  text-indent: 15px;
+  border: none;
+}
+.inputContainer::placeholder {
+  opacity: 0.6;
+  color: #888;
+}
+.findSynthesisContainer {
+  padding: 10px;
+}
+.btnSearch {
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: #a8df8e;
+  font-size: 16px;
+  font-weight: 600;
+  color: #322653;
+  cursor: pointer;
+}
+
+.textTabContainer {
+  width: 60%;
+  font-size: 22px;
+}
+
+/* Screen widths */
+@media (max-width: 876px) {
+  .bottomContainer {
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .displayBoxContainer {
+    padding-top: 32%;
+  }
+  .inputContainer {
+    width: 300px !important;
+    height: 24px;
+    padding: 8px;
+    border-radius: 100px;
+    outline: none;
+    font-size: 18px;
+    text-indent: 15px;
+    border: none;
+  }
+  .btnSearch {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #a8df8e;
+    font-size: 16px;
+    font-weight: 600;
+    color: #322653;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  .textTabContainer {
+    width: 80%;
+    font-size: 22px;
+    line-height: 2rem;
+  }
+}
